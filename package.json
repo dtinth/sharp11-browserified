@@ -1,7 +1,7 @@
 {
   "name": "@dtinth/sharp11-browserified",
   "scripts": {
-    "build": "browserify node_modules/sharp11/index.js > sharp11.js"
+    "build": "browserify node_modules/sharp11/index.js -s sharp11 > sharp11.js"
   },
   "main": "./sharp11.js",
   "devDependencies": {
